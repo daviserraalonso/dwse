@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MultiUpload</title>
+</head>
+<body>
+    <form action="subir.php" method="post" enctype="multipart/form-data">
+        <label>Archivo 1:</label><input type="file" name="archivos[]"/><br/>
+        <label>Archivo 2:</label><input type="file" name="archivos[]"/><br/>
+        <label>Archivo 3:</label><input type="file" name="archivos[]"/><br/>
+        <label>Archivo 4:</label><input type="file" name="archivos[]"/><br/>
+        <input type="submit" value="Subir"/>
+    </form>
+    <a href="Subidas/" title="Abrir carpeta de subidas" target="_blank">Ver subidos</a>
+</body>
+</html>
