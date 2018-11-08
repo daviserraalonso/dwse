@@ -41,8 +41,8 @@ class ManagerUsuario {
     function edit(Usuario $usuario) {
         $resultado = 0;
         if($this->db->connect()) {
-            $sql = 'update usuario set id=:id correo = :correo, alias = :alias, nombre = :nombre, clave = :clave, fechaalta = :fecha, activo = :activo where id = :id';
-            echo sql;
+            $sql = 'update usuario set id=:id, correo = :correo, alias = :alias, nombre = :nombre, clave = :clave, fechaalta = :fecha, activo = :activo where id = :id';
+            echo $sql;
             if($this->db->execute($sql, $usuario->get())) {
                 $resultado = $this->db->getSentence()->rowCount();
             }
