@@ -1,0 +1,574 @@
+[25-Oct-2018 07:02:13 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\database\App' not found in /home/ubuntu/workspace/proyecto/classes/izv/database/Database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/proyecto/producto/index.php(8): izv\database\Database->__construct()
+#1 {main}
+  thrown in /home/ubuntu/workspace/proyecto/classes/izv/database/Database.php on line 23
+[25-Oct-2018 07:02:21 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\database\App' not found in /home/ubuntu/workspace/proyecto/classes/izv/database/Database.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/proyecto/producto/index.php(8): izv\database\Database->__construct()
+#1 {main}
+  thrown in /home/ubuntu/workspace/proyecto/classes/izv/database/Database.php on line 23
+[25-Oct-2018 07:07:24 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\database\PDO' not found in /home/ubuntu/workspace/proyecto/classes/izv/database/Database.php:36
+Stack trace:
+#0 /home/ubuntu/workspace/proyecto/producto/index.php(10): izv\database\Database->connect()
+#1 {main}
+  thrown in /home/ubuntu/workspace/proyecto/classes/izv/database/Database.php on line 36
+[25-Oct-2018 07:08:09 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\database\PDO' not found in /home/ubuntu/workspace/proyecto/classes/izv/database/Database.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/proyecto/producto/index.php(10): izv\database\Database->connect()
+#1 {main}
+  thrown in /home/ubuntu/workspace/proyecto/classes/izv/database/Database.php on line 41
+[25-Oct-2018 07:08:32 UTC] PHP Fatal error:  Uncaught Error: Class 'Reader' not found in /home/ubuntu/workspace/proyecto/producto/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/index.php on line 17
+[25-Oct-2018 07:13:24 UTC] PHP Notice:  Undefined variable: sentencia in /home/ubuntu/workspace/proyecto/producto/index.php on line 73
+[25-Oct-2018 07:13:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/ubuntu/workspace/proyecto/producto/index.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/index.php on line 73
+[25-Oct-2018 07:13:30 UTC] PHP Notice:  Undefined variable: sentencia in /home/ubuntu/workspace/proyecto/producto/index.php on line 73
+[25-Oct-2018 07:13:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/ubuntu/workspace/proyecto/producto/index.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/index.php on line 73
+[25-Oct-2018 07:14:12 UTC] PHP Fatal error:  Uncaught Error: Class 'Producto' not found in /home/ubuntu/workspace/proyecto/producto/index.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/index.php on line 75
+[25-Oct-2018 08:16:17 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to izv\managedata\ManageProducto::__construct() must be an instance of izv\managedata\Database, instance of izv\database\Database given, called in /home/ubuntu/workspace/proyecto/producto/index.php on line 11 and defined in /home/ubuntu/workspace/proyecto/classes/izv/managedata/ManageProducto.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/proyecto/producto/index.php(11): izv\managedata\ManageProducto->__construct(Object(izv\database\Database))
+#1 {main}
+  thrown in /home/ubuntu/workspace/proyecto/classes/izv/managedata/ManageProducto.php on line 9
+[25-Oct-2018 08:17:56 UTC] PHP Notice:  Undefined property: izv\managedata\ManageProducto::$bd in /home/ubuntu/workspace/proyecto/classes/izv/managedata/ManageProducto.php on line 63
+[25-Oct-2018 08:17:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getSentence() on null in /home/ubuntu/workspace/proyecto/classes/izv/managedata/ManageProducto.php:63
+Stack trace:
+#0 /home/ubuntu/workspace/proyecto/producto/index.php(12): izv\managedata\ManageProducto->getAll()
+#1 {main}
+  thrown in /home/ubuntu/workspace/proyecto/classes/izv/managedata/ManageProducto.php on line 63
+[25-Oct-2018 19:23:17 UTC] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting ';' in /home/ubuntu/workspace/proyecto/classes/izv/tools/Util.php on line 22
+[25-Oct-2018 19:24:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\tools\Util::getAlert() in /home/ubuntu/workspace/proyecto/classes/izv/tools/Util.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/proyecto/producto/index.php(76): izv\tools\Util::dangerAlert('Error')
+#1 {main}
+  thrown in /home/ubuntu/workspace/proyecto/classes/izv/tools/Util.php on line 14
+[26-Oct-2018 10:30:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Alert' not found in /home/ubuntu/workspace/proyecto/producto/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/index.php on line 16
+[26-Oct-2018 10:30:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Alert' not found in /home/ubuntu/workspace/proyecto/producto/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/index.php on line 16
+[26-Oct-2018 10:37:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Alert' not found in /home/ubuntu/workspace/proyecto/producto/index.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/index.php on line 16
+[26-Oct-2018 10:45:39 UTC] PHP Notice:  Undefined variable: aler in /home/ubuntu/workspace/proyecto/producto/index.php on line 18
+[26-Oct-2018 10:45:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAlert() on null in /home/ubuntu/workspace/proyecto/producto/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/index.php on line 18
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 39
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 39
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 39
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 39
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[26-Oct-2018 10:45:59 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[26-Oct-2018 10:46:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:46:22 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 40
+[26-Oct-2018 10:46:22 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[26-Oct-2018 10:46:22 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:46:22 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 40
+[26-Oct-2018 10:46:22 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[26-Oct-2018 10:46:55 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:46:55 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 40
+[26-Oct-2018 10:46:55 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[26-Oct-2018 10:46:55 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:46:55 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 40
+[26-Oct-2018 10:46:55 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[26-Oct-2018 10:47:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:47:43 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[26-Oct-2018 10:47:43 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:47:43 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[26-Oct-2018 10:47:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:47:52 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[26-Oct-2018 10:47:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:47:52 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[26-Oct-2018 10:48:01 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:29:48 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:29:48 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:29:48 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:29:48 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:30:07 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:36:08 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:36:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/proyecto/producto/edit.php on line 15
+[30-Oct-2018 09:36:22 UTC] PHP Notice:  Undefined property: izv\managedata\ManageProducto::$bd in /home/ubuntu/workspace/proyecto/classes/izv/managedata/ManageProducto.php on line 49
+[30-Oct-2018 09:36:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getSentence() on null in /home/ubuntu/workspace/proyecto/classes/izv/managedata/ManageProducto.php:49
+Stack trace:
+#0 /home/ubuntu/workspace/proyecto/producto/edit.php(12): izv\managedata\ManageProducto->get('17')
+#1 {main}
+  thrown in /home/ubuntu/workspace/proyecto/classes/izv/managedata/ManageProducto.php on line 49
+[30-Oct-2018 09:37:41 UTC] PHP Warning:  var_dump() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/proyecto/producto/edit.php on line 15
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:36 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:38:54 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:01 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:07 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:39:56 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:40:09 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:46:37 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:46:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:46:44 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:46:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:46:44 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:46:47 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:46:47 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:46:47 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:46:47 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:46:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:46:52 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:46:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:46:52 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:46:54 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:46:54 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:46:54 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:46:54 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:48:32 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:48:32 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:48:32 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:48:32 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:48:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\tools\Util::url() in /home/ubuntu/workspace/proyecto/producto/doedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/doedit.php on line 16
+[30-Oct-2018 09:49:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\tools\Util::url() in /home/ubuntu/workspace/proyecto/producto/doedit.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/doedit.php on line 16
+[30-Oct-2018 09:50:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:50:45 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:50:45 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:50:45 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:51:53 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:19 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:24 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/proyecto/producto/dodelete.php on line 14
+[30-Oct-2018 09:55:24 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:24 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:55:24 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:24 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:55:28 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/proyecto/producto/dodelete.php on line 14
+[30-Oct-2018 09:55:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:28 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:55:28 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:28 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:55:31 UTC] PHP Notice:  Undefined variable: id in /home/ubuntu/workspace/proyecto/producto/dodelete.php on line 14
+[30-Oct-2018 09:55:32 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:32 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:55:32 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:32 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:55:49 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:49 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:55:49 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:49 UTC] PHP Notice:  Undefined variable: string in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 46
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:55:52 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:19 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/producto/dodelete.php on line 26
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 35
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 41
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined variable: operacion in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined index:  in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:27 UTC] PHP Notice:  Undefined variable: pos in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 42
+[30-Oct-2018 09:59:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/ubuntu/workspace/proyecto/classes/izv/tools/Alert.php on line 52
+[30-Oct-2018 10:00:31 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/proyecto/producto/dodelete.php on line 26
+[07-Nov-2018 13:28:28 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageProducto' not found in /home/ubuntu/workspace/proyecto/producto/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/proyecto/producto/index.php on line 13
+[07-Nov-2018 20:36:52 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\Manageusuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:37:06 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:37:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Manageusuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:37:59 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:39:51 UTC] PHP Fatal error:  Uncaught Error: Class 'usuario\classes\izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:41:52 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:42:24 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:46:46 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:50:13 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:51:01 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:54:59 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\database\Database' not found in /home/ubuntu/workspace/usuario/usuario/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 12
+[07-Nov-2018 20:55:57 UTC] PHP Warning:  require(../usuario/classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/usuario/usuario/index.php on line 3
+[07-Nov-2018 20:55:57 UTC] PHP Fatal error:  require(): Failed opening required '../usuario/classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/usuario/usuario/index.php on line 3
+[07-Nov-2018 20:57:53 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:58:07 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 20:58:22 UTC] PHP Warning:  require(./classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/usuario/usuario/index.php on line 3
+[07-Nov-2018 20:58:22 UTC] PHP Fatal error:  require(): Failed opening required './classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/usuario/usuario/index.php on line 3
+[07-Nov-2018 20:58:40 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 21:01:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Producto::getCorreo() in /home/ubuntu/workspace/usuario/usuario/index.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 104
+[07-Nov-2018 21:02:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Producto::getCorreo() in /home/ubuntu/workspace/usuario/usuario/index.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 104
+[07-Nov-2018 21:03:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Producto::getCorreo() in /home/ubuntu/workspace/usuario/usuario/index.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 104
+[07-Nov-2018 21:03:40 UTC] PHP Fatal error:  Uncaught Error: Class 'ManageProducto' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 21:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Producto::getCorreo() in /home/ubuntu/workspace/usuario/usuario/index.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 104
+[07-Nov-2018 21:05:58 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 21:10:40 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 21:10:57 UTC] PHP Fatal error:  Uncaught Error: Class 'ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 21:11:08 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 21:15:46 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/doinsert.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/doinsert.php on line 12
+[07-Nov-2018 21:16:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Managerusuario' not found in /home/ubuntu/workspace/usuario/usuario/doinsert.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/doinsert.php on line 12
+[07-Nov-2018 21:16:11 UTC] PHP Fatal error:  Uncaught Error: Class 'ManagerUsuario' not found in /home/ubuntu/workspace/usuario/usuario/doinsert.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/doinsert.php on line 12
+[07-Nov-2018 21:43:10 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 21:43:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalt() in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/usuario/usuario/doinsert.php(15): izv\managedata\ManagerUsuario->add(Object(izv\data\Usuario))
+#1 {main}
+  thrown in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 31
+[07-Nov-2018 21:44:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalta() in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/usuario/usuario/doinsert.php(15): izv\managedata\ManagerUsuario->add(Object(izv\data\Usuario))
+#1 {main}
+  thrown in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 31
+[07-Nov-2018 21:44:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechAlta() in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/usuario/usuario/doinsert.php(15): izv\managedata\ManagerUsuario->add(Object(izv\data\Usuario))
+#1 {main}
+  thrown in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 31
+[07-Nov-2018 21:48:18 UTC] PHP Fatal error:  Uncaught Error: Class 'ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/doinsert.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/doinsert.php on line 12
+[07-Nov-2018 21:51:07 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 21:51:19 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 13
+[07-Nov-2018 22:01:18 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:05:09 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:05:36 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:05:40 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:12:40 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:13:07 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:15:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalta() in /home/ubuntu/workspace/usuario/usuario/index.php:119
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/index.php on line 119
+[07-Nov-2018 22:16:03 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/edit.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/edit.php on line 20
+[07-Nov-2018 22:16:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalta() in /home/ubuntu/workspace/usuario/usuario/edit.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/edit.php on line 82
+[07-Nov-2018 22:17:21 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/dodelete.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/dodelete.php on line 12
+[07-Nov-2018 22:17:35 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/usuario/usuario/dodelete.php on line 53
+[07-Nov-2018 22:17:40 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/usuario/usuario/dodelete.php on line 53
+[07-Nov-2018 22:17:44 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/usuario/usuario/dodelete.php on line 53
+[07-Nov-2018 22:17:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalta() in /home/ubuntu/workspace/usuario/usuario/edit.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/edit.php on line 82
+[07-Nov-2018 22:18:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalt() in /home/ubuntu/workspace/usuario/usuario/edit.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/edit.php on line 82
+[07-Nov-2018 22:19:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalta() in /home/ubuntu/workspace/usuario/usuario/edit.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/edit.php on line 82
+[07-Nov-2018 22:20:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalta() in /home/ubuntu/workspace/usuario/usuario/edit.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/edit.php on line 82
+[07-Nov-2018 22:22:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalta() in /home/ubuntu/workspace/usuario/usuario/edit.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/edit.php on line 82
+[07-Nov-2018 22:23:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalta() in /home/ubuntu/workspace/usuario/usuario/edit.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/edit.php on line 82
+[07-Nov-2018 22:24:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalta() in /home/ubuntu/workspace/usuario/usuario/edit.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/edit.php on line 82
+[07-Nov-2018 22:25:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method izv\data\Usuario::getFechalta() in /home/ubuntu/workspace/usuario/usuario/edit.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/edit.php on line 82
+[07-Nov-2018 22:27:50 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManageUsuario' not found in /home/ubuntu/workspace/usuario/usuario/doedit.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/usuario/usuario/doedit.php on line 12
+[07-Nov-2018 22:28:11 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:28:24 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:30:09 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[07-Nov-2018 22:30:09 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:30:36 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[07-Nov-2018 22:30:36 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:31:53 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[07-Nov-2018 22:31:53 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:32:39 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[07-Nov-2018 22:32:39 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:35:17 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[07-Nov-2018 22:35:17 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/usuario/classes/izv/database/Database.php on line 73
+[07-Nov-2018 22:35:34 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[07-Nov-2018 22:36:05 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[07-Nov-2018 22:36:28 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[07-Nov-2018 22:36:59 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[08-Nov-2018 07:22:49 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[08-Nov-2018 07:24:12 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[08-Nov-2018 07:25:04 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
+[08-Nov-2018 07:25:20 UTC] PHP Notice:  Use of undefined constant sql - assumed 'sql' in /home/ubuntu/workspace/usuario/classes/izv/managedata/ManagerUsuario.php on line 45
