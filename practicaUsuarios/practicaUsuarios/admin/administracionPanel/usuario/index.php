@@ -73,7 +73,6 @@ $alert = Alert::getMessage(Reader::get('op'), Reader::get('resultado'));
                             <th>Correo</th>
                             <th>Alias</th>
                             <th>Nombre</th>
-                            <th>Clave</th>
                             <th>Fecha Alta</th>
                             <th>Activo</th>
                             <th>Borrar</th>
@@ -101,7 +100,6 @@ $alert = Alert::getMessage(Reader::get('op'), Reader::get('resultado'));
                                         ?>
                                     </td>
                                     <td><?= $usuario->getNombre() ?></td>
-                                    <td><?= $usuario->getClave() ?></td>
                                     <td><?= $usuario->getFechaalta() ?></td>
                                     <td>
                                         <?php 
@@ -112,8 +110,8 @@ $alert = Alert::getMessage(Reader::get('op'), Reader::get('resultado'));
                                             }
                                         ?>
                                     </td>
-                                    <td><a href="usuario/dodelete.php?id=<?= $usuario->getId() ?>&nombre=<?= $nombre ?>" class = "borrar">Borrar</a></td>
-                                    <td><a href="usuario/edit.php?id=<?= $usuario->getId() ?>">Editar</a></td>
+                                    <td><a href="../usaurio/dodelete.php?id=<?= $usuario->getId() ?>&nombre=<?= $nombre ?>" class = "borrar">Borrar</a></td>
+                                    <td><a href="../usuario/edit.php?id=<?= $usuario->getId() ?>">Editar</a></td>
                                 </tr>
                                 <?php
                             }
@@ -121,7 +119,6 @@ $alert = Alert::getMessage(Reader::get('op'), Reader::get('resultado'));
                     </tbody>
                 </table>
                 &nbsp;
-                <a href="/practicaUsuarios/admin/administracionPanel/usuario/insert.php" class="btn btn-success">agregar usuario</a>
                 <a href="/practicaUsuarios" class="btn btn-success">Volver</a>
                 <hr>
             </div>

@@ -5,8 +5,14 @@ use izv\database\Database;
 use izv\managedata\ManagerUsuario;
 use izv\tools\Reader;
 use izv\tools\Util;
+use izv\sessions\Session;
+
 
 require '../classes/autoload.php';
+
+if($sesion -> isLogged()){
+        header('Location: ../dodelete.php');
+    }
 
 $db = new Database();
 $manager = new ManagerUsuario($db);

@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://dwse-scorpions.c9users.io/">Home!!</a>
+                    <a class="nav-link" href="https://dwse-scorpions.c9users.io/">Home</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="https://dwse-scorpions.c9users.io/practicaUsuarios/usuario/index.php">Sign Out</a>

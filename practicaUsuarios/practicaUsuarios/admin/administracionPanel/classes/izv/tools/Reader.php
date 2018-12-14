@@ -62,6 +62,7 @@ class Reader {
                 $array = $object->$methodGet();
                 foreach($array as $atributo => $valor) {
                     $array[$atributo] = self::read($atributo);
+                    //$array[$atributo] = self::read(substr($atributo, $array[6], sizeof($array)));
                 }
                 if(method_exists($object, $methodSet)) {
                     $object->$methodSet($array);

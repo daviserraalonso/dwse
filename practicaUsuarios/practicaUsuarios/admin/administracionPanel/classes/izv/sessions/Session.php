@@ -3,7 +3,7 @@ namespace izv\sessions;
 
 class Session {
 
-    const USER = '__user';
+    const USER = 'usuario';
     
     //constructor
     function __construct($name = null) {
@@ -51,4 +51,10 @@ class Session {
     function getLogin(){
         return $this->get(self::USER);
     }
+    
+    //login
+    function login($usuario, $name = 'usuario') {
+        return $this->set($name, $usuario);
+    }
+        
 }

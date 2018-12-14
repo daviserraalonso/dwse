@@ -66,14 +66,13 @@
                             <input required type="text" class="form-control" id="clave" name="clave" placeholder="Introduce la contraseña"></textarea>
                         </div>
                         <div class="form-group">
-                            <label for="fecha">Fecha Alta</label>
-                            <input type="text" class="form-control" id="fecha" name="fecha" placeholder="Introduce la fecha"></textarea>
+                            <label for="clave">Usuario activo:</label>
+                            <input type="checkbox" id="activo" name="activo" value="1"> 
                         </div>
                         <div class="form-group">
-                            <label for="clave">Usuario activo:</label>
-                            <input type="checkbox" id="activo" name="activo" value="1" checked> <label for="activo">activo</label>
+                            <label for="clave">Administrador:</label>
+                            <input type="checkbox" id="activo" name="administrator" value="1">
                         </div>
-
                         <button type="submit" class="btn btn-primary">Alta</button>
                     </form>
                     

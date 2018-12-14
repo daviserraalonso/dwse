@@ -6,27 +6,34 @@
     use izv\tools\Reader;
     use izv\tools\Util;
     use izv\tools\Render;
+    use izv\sessions\Session;
+    use izv\app\App;
     
     require '../classes/autoload.php';
     
-    //1º comprobar si puedo hacer esta operación
-    //2º validar los datos
+    $sesion = new Session(App::SESSION_NAME);
+    
+    if(!$sesion->isLogged()){
+      header('Location: https://dwse-scorpions.c9users.io/practicaUsuarios');
+    }
+    
     $id = Reader::read('id');
     
     if($id === null || !is_numeric($id) ||  $id <= 0) {
         header('Location: index.php');
         exit();
     }
-    
     $db = new Database();
     $manager = new ManagerUsuario($db);
+    
     $usuario = $manager->get($id);
     $db->close();
-    
+        
     if($usuario === null) {
         header('Location: index.php');
         exit();
     }
+    
     ?>
 <!doctype html>
 <html>
@@ -41,10 +48,10 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../adminPanel.php">Home</a>
+                        <a class="nav-link" href="../panel/index.php">Home</a>
                     </li>
                     <li class="nav-item text-nowrap">
-                      <a class="nav-link" href="#">Sign out</a>
+                      <a class="nav-link" href="../login/destroySesion.php">Sign out</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +64,7 @@
             </div>
             <div class="container">
                 <div><!--MODIFICAR-->
-                    <form action="doinsert.php" method="post">
+                    <form action="doedit.php" method="post">
                         <div class="form-group">
                             <label for="nombre">Nombre del usuario</label>
                             <input required type="text" class="form-control" id="nombre" name="nombre" placeholder="Introduce el nombre del usuario" value="<?= $usuario->getNombre() ?>">
@@ -84,7 +91,7 @@
                         <button type="submit" class="btn btn-primary">Edit</button>
                     </form>
                     </br>
-                    <a href="https://dwse-scorpions.c9users.io/practicaUsuarios/admin/administracionPanel/">
+                    <a href="https://dwse-scorpions.c9users.io/practicaUsuarios/admin/administracionPanel/panel/index.php?op=login&resultado=1">
                         <button type="submit" class="btn btn-primary">Go Back</button>
                     </a>
                     
