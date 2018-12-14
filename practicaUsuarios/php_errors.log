@@ -1,0 +1,455 @@
+[03-Dec-2018 22:47:49 UTC] PHP Notice:  Undefined variable: usuario_nombre in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 6
+[03-Dec-2018 22:47:49 UTC] PHP Notice:  Undefined variable: usuario_email in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 10
+[03-Dec-2018 22:48:14 UTC] PHP Notice:  Undefined variable: usuario_email in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 10
+[03-Dec-2018 22:53:59 UTC] PHP Warning:  require(class.phpmailer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 3
+[03-Dec-2018 22:53:59 UTC] PHP Fatal error:  require(): Failed opening required 'class.phpmailer.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 3
+[03-Dec-2018 22:54:16 UTC] PHP Warning:  require(/practicaUsuarios/activacion/PHPMailer-master/src/PHPMailer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 3
+[03-Dec-2018 22:54:16 UTC] PHP Fatal error:  require(): Failed opening required '/practicaUsuarios/activacion/PHPMailer-master/src/PHPMailer.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 3
+[03-Dec-2018 22:55:25 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 5
+[03-Dec-2018 22:55:37 UTC] PHP Warning:  require(/PHPMailer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 3
+[03-Dec-2018 22:55:37 UTC] PHP Fatal error:  require(): Failed opening required '/PHPMailer.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 3
+[03-Dec-2018 22:56:39 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 5
+[03-Dec-2018 22:57:23 UTC] PHP Warning:  require(/PHPMailer-master/src/PHPMailer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 3
+[03-Dec-2018 22:57:23 UTC] PHP Fatal error:  require(): Failed opening required '/PHPMailer-master/src/PHPMailer.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 3
+[03-Dec-2018 22:57:39 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 5
+[03-Dec-2018 22:58:47 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 5
+[03-Dec-2018 22:59:20 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 5
+[03-Dec-2018 23:00:08 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 5
+[03-Dec-2018 23:17:18 UTC] PHP Notice:  Undefined variable: header in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 9
+[13-Dec-2018 17:03:36 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 14
+[13-Dec-2018 17:03:55 UTC] PHP Warning:  require_once(/PHPMailer-master/src/PHPMailer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 3
+[13-Dec-2018 17:03:55 UTC] PHP Fatal error:  require_once(): Failed opening required '/PHPMailer-master/src/PHPMailer.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 3
+[13-Dec-2018 17:04:10 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 14
+[13-Dec-2018 17:05:35 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailermaster\src\PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 16
+[13-Dec-2018 17:06:35 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailermaster\src\PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 16
+[13-Dec-2018 17:07:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailermaster\src\PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/sendEmail.php on line 19
+[13-Dec-2018 17:24:14 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/practicaUsuarios/activacion../classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:24:14 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/practicaUsuarios/activacion../classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:25:13 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/practicaUsuarios/activacionclasses/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:25:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/practicaUsuarios/activacionclasses/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:25:24 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/practicaUsuarios/activacion/classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:25:24 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/practicaUsuarios/activacion/classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:25:42 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/practicaUsuarios/activacion../classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:25:42 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/practicaUsuarios/activacion../classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:26:22 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/practicaUsuarios/activacion/practicaUsuarios/classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:26:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/practicaUsuarios/activacion/practicaUsuarios/classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:26:41 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/practicaUsuarios/activacion../practicaUsuarios/classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:26:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/practicaUsuarios/activacion../practicaUsuarios/classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:27:40 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/practicaUsuarios/activacion../practicaUsuarios/classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:27:40 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/practicaUsuarios/activacion../practicaUsuarios/classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:28:17 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/practicaUsuarios/activacion../classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:28:17 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/practicaUsuarios/activacion../classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:28:27 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: file does not exist in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:859
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php(844): Google_Client->setAuthConfig('/claves/claves....')
+#1 /home/ubuntu/workspace/practicaUsuarios/activacion/email.php(10): Google_Client->setAuthConfigFile('/claves/claves....')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 859
+[13-Dec-2018 17:32:21 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/Google/autoload.php on line 19
+[13-Dec-2018 17:32:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 7
+[13-Dec-2018 17:33:10 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/Google/vendor/autoload.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/activacion/email.php(4): require_once()
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/Google/vendor/autoload.php on line 14
+[13-Dec-2018 17:38:31 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/practicaUsuarios/activacion../../classes/vendor/google/auth/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:38:31 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/practicaUsuarios/activacion../../classes/vendor/google/auth/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 4
+[13-Dec-2018 17:39:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 7
+[13-Dec-2018 17:43:24 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/autoload.php on line 19
+[13-Dec-2018 17:43:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 7
+[13-Dec-2018 17:44:43 UTC] PHP Deprecated:  google-api-php-client's autoloader was moved to vendor/autoload.php in 2.0.0. This redirect will be removed in 2.1. Please adjust your code to use the new location. in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/autoload.php on line 19
+[13-Dec-2018 17:44:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 7
+[13-Dec-2018 17:45:18 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/vendor/autoload.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/activacion/email.php(4): require_once()
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/vendor/autoload.php on line 14
+[13-Dec-2018 17:45:46 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/vendor/autoload.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/activacion/email.php(4): require_once()
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/vendor/autoload.php on line 14
+[13-Dec-2018 17:47:57 UTC] PHP Fatal error:  Uncaught Exception: This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation. in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient-services/vendor/autoload.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/activacion/email.php(4): require_once()
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient-services/vendor/autoload.php on line 14
+[13-Dec-2018 17:49:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 7
+[13-Dec-2018 17:50:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 7
+[13-Dec-2018 17:53:14 UTC] PHP Fatal error:  Uncaught Error: Class 'google\auth\Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 9
+[13-Dec-2018 17:53:47 UTC] PHP Fatal error:  Uncaught Error: Class 'google\auth\Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 9
+[13-Dec-2018 17:53:58 UTC] PHP Fatal error:  Uncaught Error: Class 'google\auth\Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 9
+[13-Dec-2018 17:54:01 UTC] PHP Fatal error:  Uncaught Error: Class 'google\auth\Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 9
+[13-Dec-2018 17:54:08 UTC] PHP Fatal error:  Uncaught Error: Class 'google\auth\Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 9
+[13-Dec-2018 17:54:14 UTC] PHP Fatal error:  Uncaught Error: Class 'Client' not found in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 9
+[13-Dec-2018 19:36:36 UTC] PHP Warning:  file_get_contents(token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/activacion/email.php on line 20
+[13-Dec-2018 19:36:36 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/activacion/email.php(20): Google_Client->setAccessToken(false)
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 21:40:00 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 12
+[13-Dec-2018 21:43:12 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 17
+[13-Dec-2018 21:44:09 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 17
+[13-Dec-2018 21:45:30 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\managedata\ManagerUsuario' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 17
+[13-Dec-2018 21:47:19 UTC] PHP Fatal error:  Trait 'izv\common\Comun' not found in /home/ubuntu/workspace/practicaUsuarios/classes/izv/data/Usuario.php on line 14
+[13-Dec-2018 21:47:47 UTC] PHP Fatal error:  Uncaught Error: Class 'email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 29
+[13-Dec-2018 21:48:26 UTC] PHP Fatal error:  Uncaught Error: Class 'email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 29
+[13-Dec-2018 21:49:02 UTC] PHP Fatal error:  Uncaught Error: Class 'activacion\Email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 30
+[13-Dec-2018 21:49:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 30
+[13-Dec-2018 21:50:02 UTC] PHP Fatal error:  Uncaught Error: Class 'activacion\Email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 30
+[13-Dec-2018 21:50:33 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\activacion\Email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 30
+[13-Dec-2018 21:50:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 30
+[13-Dec-2018 21:52:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(32): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 67
+[13-Dec-2018 21:53:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(32): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 67
+[13-Dec-2018 21:54:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 30
+[13-Dec-2018 21:55:11 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\activacion\Email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 30
+[13-Dec-2018 21:56:13 UTC] PHP Fatal error:  Uncaught Error: Class 'izv\activacion\Email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 30
+[13-Dec-2018 21:56:23 UTC] PHP Fatal error:  Uncaught Error: Class 'Email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 30
+[13-Dec-2018 21:58:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(32): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 67
+[13-Dec-2018 21:58:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(32): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 67
+[13-Dec-2018 22:01:31 UTC] PHP Warning:  file_get_contents(/practicaUsuarios/activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:01:31 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:02:41 UTC] PHP Warning:  file_get_contents(../activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:02:41 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:03:04 UTC] PHP Warning:  file_get_contents(/practicaUsuarios/classes/izv/activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:03:04 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:03:53 UTC] PHP Warning:  file_get_contents(token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:03:53 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:04:21 UTC] PHP Warning:  file_get_contents(token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:04:21 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:04:43 UTC] PHP Warning:  file_get_contents(token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:04:43 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:05:10 UTC] PHP Warning:  file_get_contents(token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:05:10 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:05:53 UTC] PHP Warning:  file_get_contents(/practicaUsuarios/classes/izv/activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:05:53 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:07:46 UTC] PHP Warning:  file_get_contents(/practicaUsuarios/classes/izv/activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:07:46 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:09:02 UTC] PHP Warning:  file_get_contents(/practicaUsuarios/classes/izv/activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:09:02 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:09:18 UTC] PHP Warning:  file_get_contents(/classes/izv/activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:09:18 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:10:28 UTC] PHP Warning:  file_get_contents(/classes/izv/activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:10:28 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:11:15 UTC] PHP Fatal error:  Uncaught Error: Undefined class constant 'TOKEN_FILE' in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:11:26 UTC] PHP Warning:  file_get_contents(/classes/izv/activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:11:26 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:11:54 UTC] PHP Warning:  file_get_contents(token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:11:54 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:12:04 UTC] PHP Warning:  file_get_contents(/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:12:04 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:12:37 UTC] PHP Warning:  file_get_contents(token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:12:37 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:13:09 UTC] PHP Warning:  file_get_contents(/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:13:09 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:13:17 UTC] PHP Warning:  file_get_contents(token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:13:17 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:13:43 UTC] PHP Warning:  file_get_contents(../activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:13:43 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:14:30 UTC] PHP Warning:  file_get_contents(../activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:14:30 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:16:40 UTC] PHP Warning:  file_get_contents(../activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:16:40 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(33): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:21:08 UTC] PHP Warning:  file_get_contents(../activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:21:08 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(34): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:21:37 UTC] PHP Fatal error:  Uncaught Error: Class 'Email' not found in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 32
+[13-Dec-2018 22:21:43 UTC] PHP Warning:  file_get_contents(../activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:21:43 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(34): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:23:58 UTC] PHP Warning:  file_get_contents(../activacion/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 73
+[13-Dec-2018 22:23:58 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php(73): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(34): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#2 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[13-Dec-2018 22:24:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function izv\tools\curl_get_contents() in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(34): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 74
+[13-Dec-2018 22:27:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function izv\tools\curl_get_contents() in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(34): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 74
+[13-Dec-2018 22:30:28 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\src\PHPMailer' not found in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php:82
+Stack trace:
+#0 /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php(34): izv\tools\Email::sendMail('prueba', 'prueba', 'prueba Mensaje', 'pruebaAlias', 'PruebaFrom')
+#1 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/classes/izv/tools/Email.php on line 82
+[13-Dec-2018 22:43:53 UTC] PHP Notice:  Undefined property: izv\data\Usuario::$getCorreo in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 34
+[13-Dec-2018 22:43:53 UTC] PHP Notice:  Undefined property: izv\data\Usuario::$getActivo in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 34
+[13-Dec-2018 22:44:17 UTC] PHP Notice:  Undefined property: izv\data\Usuario::$getCorreo in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 34
+[13-Dec-2018 22:44:17 UTC] PHP Notice:  Undefined property: izv\data\Usuario::$getActivo in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 34
+[13-Dec-2018 22:44:25 UTC] PHP Notice:  Undefined property: izv\data\Usuario::$getCorreo in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 34
+[13-Dec-2018 22:44:25 UTC] PHP Notice:  Undefined property: izv\data\Usuario::$getActivo in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 34
+[13-Dec-2018 22:47:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sendMail() on string in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 37
+[13-Dec-2018 22:48:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sendMail() on string in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 37
+[13-Dec-2018 22:48:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sendMail() on string in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 37
+[13-Dec-2018 22:48:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function sendMail() on string in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 37
+[13-Dec-2018 22:50:06 UTC] PHP Notice:  Undefined property: izv\data\Usuario::$getActivo in /home/ubuntu/workspace/practicaUsuarios/usuario/doinsert.php on line 37
