@@ -79,10 +79,12 @@ $alert = Alert::getMessage(Reader::get('op'), Reader::get('resultado'));
                 <table class="table table-striped table-hover" id="tablaUsuario">
                     <thead>
                         <tr>
-                            <th></th>
+                            <th><input type="checkbox" id="checkAll" /></th>
+                            <th>Id</th>
                             <th>Correo</th>
                             <th>Alias</th>
                             <th>Nombre</th>
+                            <th>Fecha Alta</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -91,7 +93,8 @@ $alert = Alert::getMessage(Reader::get('op'), Reader::get('resultado'));
                                 $nombre = urlencode($usuario->getNombre());
                                 ?>
                                 <tr >
-                                    <td></td>
+                                    <td><input type="checkbox" name="ids[]"  value="<?= $usuario->getId() ?>" form="fBorrar" /></td>
+                                    <td><?php echo $usuario->getId(); ?></td>
                                     <td><?= $usuario->getCorreo() ?></td>
                                     <td>
                                         <?php 
@@ -105,6 +108,7 @@ $alert = Alert::getMessage(Reader::get('op'), Reader::get('resultado'));
                                         ?>
                                     </td>
                                     <td><?= $usuario->getNombre() ?></td>
+                                    <td><?= $usuario->getFechaalta() ?></td>
                                 </tr>
                                 <?php
                             }

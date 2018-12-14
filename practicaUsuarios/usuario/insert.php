@@ -52,7 +52,7 @@
             </div>
             <div class="container">
                 <div>
-                    <form action="doinsert.php" method="post">
+                    <form action="../activacion/sendEmail.php" method="post">
                         <div class="form-group">
                             <label for="correo">Correo del usuario</label>
                             <input required type="text" class="form-control" id="correo" name="correo" placeholder="Introduce el correo">
@@ -73,6 +73,12 @@
                             <label for="fecha">Fecha Alta</label>
                             <input type="text" class="form-control" id="fecha" name="fecha" placeholder="Introduce la fecha"></textarea>
                         </div>
+                        <div class="form-group">
+                            <label for="clave">Usuario activo:</label>
+                            <input type="checkbox" id="activo" name="activo" value="1" checked> <label for="activo">activo</label>
+                        </div>
+                        
+                        
                         <button type="submit" class="btn btn-primary">Alta</button>
                     </form>
                 </div>
